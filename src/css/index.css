@@ -73,6 +73,10 @@ input {
 
 select {
   background-color: #f4f4f4;
+  font-size: 16px;
+  font-family: "Fira Code", monospace;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 input:focus {
@@ -91,7 +95,7 @@ button {
   height: 50px;
   background-color: none;
 
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 10px;
 
   font-family: "Fira Code", monospace;

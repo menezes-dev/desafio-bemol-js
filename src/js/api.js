@@ -6,7 +6,6 @@ export default class Api {
 
     if (formData.number == "") return "Please enter a number";
 
-    console.log(formData);
     const url = `${this.baseUrl}/${formData.number}/${formData.type}/?json`;
 
     return await fetch(url, {
