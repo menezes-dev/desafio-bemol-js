@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-logo">
+        <h3>Infinite Numbers</h3>
+        <img
+          src="./src/assets/logo.png"
+          alt="
+          image of a feather drawing the infinity sign"
+          class="logo"
+        />
+      </div>
+
+      <form action="submit">
+        <label for="number" class="title"> Enter a number</label>
+        <input type="number" id="number" />
+        <label for="options" class="title">Choose an option:</label>
+        <select id="options">
+          <option value="math">Math</option>
+          <option value="trivia">Trivia</option>
+          <option value="date">Dates</option>
+          <option value="year">Years</option>
+        </select>
+
+        <button id="send" type="submit">Discover</button>
+      </form>
+    </div>
+
+    <div class="response"></div>
+    <script src="./src/js/index.js" type="module"></script>
+  </body>
+</html>
