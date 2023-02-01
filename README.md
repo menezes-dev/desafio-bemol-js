@@ -9,4 +9,4 @@ A aplicação conta com 4 categorias:
 - <b>Date</b>: Datas importantes envolvendo o número;
 - <b>Year</b>: Acontecimentos importantes ocorridos no ano correspondente ao número informado.
 
-A aplicação consome a api <a href=“http://numbersapi.com/“>NumbersAPI</a> para gerar as curiosidades.
+A aplicação consome a api [NumbersAPI](http://numbersapi.com/) para gerar as curiosidades.
